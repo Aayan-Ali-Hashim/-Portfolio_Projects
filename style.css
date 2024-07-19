@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(143, 155, 153);
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    padding-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+h4{
+    padding-top: 2vh;
+}
+.project1-container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    max-width: 40vh;
+    height: 40vh;
+    margin-left: 10vh;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+img{
+    padding-bottom: 2vh;
+    display: flex;
+    max-width:inherit;
+    height: 20vh;
+}
+a{
+    color:rgb(28, 35, 36);
+    text-decoration: none;
+    font-family:  'Lucida Sans Unicode';
+    font-size: large;
+}
+button{
+    cursor:pointer;
+    margin-bottom: 200vh;
+}
