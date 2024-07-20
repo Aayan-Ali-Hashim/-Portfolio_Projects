@@ -5,8 +5,12 @@
 body{
    background-size: cover;
 }
-#date,#day{
-    color: #5dc1ff;
+.date-container{
+    display: flex;
+    justify-content:center
+}
+#date,#day,#month,#year{
+    color: #3f578a;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
