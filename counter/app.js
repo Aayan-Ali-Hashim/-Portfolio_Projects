@@ -1,5 +1,12 @@
 function decrease(){
-    document.querySelector('#display').innerHTML--;
+    if (document.querySelector('#display').innerHTML <= 0){
+        document.querySelector('#display').innerHTML = 0;
+    }
+    else{
+        
+        document.querySelector('#display').innerHTML--;
+    }
+
 }
 function increase(){
     document.querySelector("#display").innerHTML++;
