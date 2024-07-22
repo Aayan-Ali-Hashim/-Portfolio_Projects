@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff5e9;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+h1{
+ border: 10px solid rgb(255, 255, 255);
+ border-radius: 12px;
+ width:400px;
+ padding-left: 50px;
+ color: #faa4a7;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: #3cc29d;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff5e9;
+}
