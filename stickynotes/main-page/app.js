@@ -20,18 +20,15 @@ function createCard(title, content) {
     const cardContent = document.createElement('p');
     cardContent.textContent = content;
     card.appendChild(cardTitle);
-    card.appendChild(cardContent);
-    // document.querySelector('.content').style.color = "white";
-    
-    return card;
+    card.appendChild(cardContent);  
+  return card;
 }
 if (document.body.scrollHeight > document.body.clientHeight) {
   document.body.style.height = "fit-content";
 }
+document.querySelector("#title-input").value = "";
+document.querySelector("#text-input").value = "";
 // Example usage
 const card1 = createCard(titleData(),textData());
 cardContainer.appendChild(card1);
-localStorage.setItem("value", JSON.stringify({ title: titleData(), content: textData() }));
-
-
 })
